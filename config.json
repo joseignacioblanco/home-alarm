@@ -1,0 +1,34 @@
+{
+    "zones": {
+      "puerta_principal": {"gpio": 17, "tipo": "magnetico", "activa": true},
+      "puerta_trasera": {"gpio": 27, "tipo": "magnetico", "activa": true},
+      "puerta_garage": {"gpio": 22, "tipo": "magnetico", "activa": true},
+      "ventanas": {
+        "ventana_1": {"gpio": 5, "tipo": "magnetico", "activa": true},
+        "ventana_2": {"gpio": 6, "tipo": "magnetico", "activa": true},
+        "ventana_3": {"gpio": 13, "tipo": "magnetico", "activa": true},
+        "ventana_4": {"gpio": 19, "tipo": "magnetico", "activa": true},
+        "ventana_5": {"gpio": 26, "tipo": "magnetico", "activa": true},
+        "ventana_6": {"gpio": 21, "tipo": "magnetico", "activa": true}
+      },
+      "movimiento": {
+        "living": {"gpio": 20, "tipo": "pir", "activa": true},
+        "dormitorio_1": {"gpio": 16, "tipo": "pir", "activa": true},
+        "dormitorio_2": {"gpio": 12, "tipo": "pir", "activa": true},
+        "dormitorio_3": {"gpio": 7, "tipo": "pir", "activa": true},
+        "garage": {"gpio": 8, "tipo": "pir", "activa": true}
+      }
+    },
+    "alarm_type": "aturdidor",  // Puede ser "policial" o "aturdidor"
+    "alarm_gpio": 23,
+    "timbre_gpio": 24,
+    "puerta_relay_gpio": 25,
+    "rfid_authorized_uids": [
+      "12345678", "87654321"
+    ],
+    "telegram_token": "123456789:ABCDefghijklmnopqrstuvwxYZ",
+    "authorized_telegram_ids": [
+      111111111, 222222222
+    ]
+  }
+  

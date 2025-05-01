@@ -1,0 +1,12 @@
+idea de alarma casera:
+
+alarma tradicional con sensores y sirena
+dos sirenas. policial y aturdidor
+configurable por linea de comando, por telegram, por rfid
+sensores de puerta abierta y sensores de movimiento
+baterias para corte de luz
+proteccion contra cortes de cables
+sensores de cambios de temperaturas y de monoxido
+medidor de temperatura ambiente
+log para registro de eventos
+incorporacion de comando de luces portero electrico y cierre magnetico
